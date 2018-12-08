@@ -1,0 +1,15 @@
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.Domain\bin\Debug\CristalSearch.Domain.dll
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.Domain\bin\Debug\CristalSearch.Domain.pdb
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.Domain\obj\Debug\CristalSearch.Domain.csprojAssemblyReference.cache
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.Domain\obj\Debug\CristalSearch.Domain.csproj.CoreCompileInputs.cache
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.Domain\obj\Debug\CristalSearch.Domain.dll
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.Domain\obj\Debug\CristalSearch.Domain.pdb
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.Domain\bin\Debug\Antlr3.Runtime.dll
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.Domain\bin\Debug\FluentNHibernate.dll
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.Domain\bin\Debug\Iesi.Collections.dll
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.Domain\bin\Debug\NHibernate.dll
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.Domain\bin\Debug\Remotion.Linq.dll
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.Domain\bin\Debug\Remotion.Linq.EagerFetching.dll
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.Domain\bin\Debug\CristalSearch.DomainInfra.dll
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.Domain\bin\Debug\CristalSearch.DomainInfra.pdb
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.Domain\obj\Debug\CristalSearch.Domain.csproj.CopyComplete

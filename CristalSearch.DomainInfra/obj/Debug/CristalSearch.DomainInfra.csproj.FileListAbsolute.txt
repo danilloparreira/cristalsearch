@@ -1,0 +1,13 @@
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.DomainInfra\bin\Debug\CristalSearch.DomainInfra.dll
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.DomainInfra\bin\Debug\CristalSearch.DomainInfra.pdb
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.DomainInfra\obj\Debug\CristalSearch.DomainInfra.csprojAssemblyReference.cache
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.DomainInfra\obj\Debug\CristalSearch.DomainInfra.csproj.CoreCompileInputs.cache
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.DomainInfra\obj\Debug\CristalSearch.DomainInfra.dll
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.DomainInfra\obj\Debug\CristalSearch.DomainInfra.pdb
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.DomainInfra\bin\Debug\Antlr3.Runtime.dll
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.DomainInfra\bin\Debug\FluentNHibernate.dll
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.DomainInfra\bin\Debug\Iesi.Collections.dll
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.DomainInfra\bin\Debug\NHibernate.dll
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.DomainInfra\bin\Debug\Remotion.Linq.dll
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.DomainInfra\bin\Debug\Remotion.Linq.EagerFetching.dll
+C:\Users\DanilloAugusto\Documents\Visual Studio 2017\Projects\CristalSearch\CristalSearch.DomainInfra\obj\Debug\CristalSearch.DomainInfra.csproj.CopyComplete

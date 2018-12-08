@@ -1,0 +1,107 @@
+﻿@{
+    ViewBag.Title = "Cristal Search";
+}
+
+<div class="jumbotron">
+    <h1>CRISTAL SEARCH</h1>
+    <p class="lead">Sistema online de gerenciamento de cristais</p>
+    <blockquote class="text-right" style="margin-bottom: 0px;">
+        <p class="mb-0">O medo é o caminho para o lado negro. O medo leva a raiva, a raiva leva ao ódio, o ódio leva ao sofrimento.</p>
+        <footer class="blockquote-footer">Yoda</footer>
+    </blockquote>
+</div>
+
+<div>
+    <div class="row">
+        <div class="col-md-8">
+            <span>Filtrar por nome:</span>
+            <input class="input__filtro" type="text" id="filtroNome" />
+            <span>Filtrar por cor:</span>
+            <input class="input__filtro" type="text" id="filtroCor" />
+        </div>
+        <div class="col-md-2">
+            <button type="button" onclick="filtrar()" class="btn input-button__filtro">Filtrar</button>
+        </div>
+        <div class="col-md-2">
+            <button type="button" data-toggle="modal" data-target="#myModal" class="btn input-button__filtro" onclick="adicionar()">Adicionar</button>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="tabela__nome">Nome</th>
+                    <th class="tabela__cor">Cor</th>
+                    <th class="tabela__planeta">Planeta</th>
+                    <th class="tabela__significado">Significado</th>
+                    <th class="tabela__acoes">Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 id="titulo-modal" class="modal-title"></h4>
+                <button type="button" class="close" data-dismiss="modal" onclick="limparCampos()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <input id="idCristal" style="display:none;"/>
+                <span>Nome</span>
+                <input id="nomeCristal" class="input-group" type="text" />
+                <span>Cor</span>
+                <input id="corCristal" class="input-group" type="text" />                
+                <span>Planeta</span>
+                <input id="planetaCristal" class="input-group" type="text" />                
+                <span>Significado</span>
+                <input id="significadoCristal" maxlength="400" class="input-group" type="text" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalConfirmation">Salvar</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" onclick="limparCampos()">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModalConfirmation" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">CONFIRMAÇÃO</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <span>VOCÊ TEM CERTEZA QUE DESEJA SALVAR?</span>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-success" onclick="salvar()">Sim</button>
+                <button type="button" class="btn btn-default btn-danger" data-dismiss="modal">Não</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="myModalConfirmationDelete" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">CONFIRMAÇÃO</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <span>VOCÊ TEM CERTEZA QUE DESEJA EXCLUIR?</span>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-success" onclick="excluir()">Sim</button>
+                <button type="button" class="btn btn-default btn-danger" data-dismiss="modal">Não</button>
+            </div>
+        </div>
+    </div>
+</div>

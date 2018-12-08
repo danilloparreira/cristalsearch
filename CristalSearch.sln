@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{2149AB12-30BE-48F1-8534-385DCBBE5CB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{2B6DE15B-32A9-4545-868B-B83EDFFF4AC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{3368445B-ED29-44FF-9423-61CD7615C48E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CristalSearch.Web", "CristalSearch.Web\CristalSearch.Web.csproj", "{D782F411-102F-476D-8E84-03C8D5D5C89C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CristalSearch.DomainInfra", "CristalSearch.DomainInfra\CristalSearch.DomainInfra.csproj", "{500218BE-CDE7-43DB-A23C-A3E66187114F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CristalSearch.Domain", "CristalSearch.Domain\CristalSearch.Domain.csproj", "{9E14A620-6F56-40DA-AA42-D81CE539B5B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D782F411-102F-476D-8E84-03C8D5D5C89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D782F411-102F-476D-8E84-03C8D5D5C89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D782F411-102F-476D-8E84-03C8D5D5C89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D782F411-102F-476D-8E84-03C8D5D5C89C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{500218BE-CDE7-43DB-A23C-A3E66187114F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500218BE-CDE7-43DB-A23C-A3E66187114F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500218BE-CDE7-43DB-A23C-A3E66187114F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500218BE-CDE7-43DB-A23C-A3E66187114F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E14A620-6F56-40DA-AA42-D81CE539B5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E14A620-6F56-40DA-AA42-D81CE539B5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E14A620-6F56-40DA-AA42-D81CE539B5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E14A620-6F56-40DA-AA42-D81CE539B5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D782F411-102F-476D-8E84-03C8D5D5C89C} = {3368445B-ED29-44FF-9423-61CD7615C48E}
+		{500218BE-CDE7-43DB-A23C-A3E66187114F} = {2B6DE15B-32A9-4545-868B-B83EDFFF4AC1}
+		{9E14A620-6F56-40DA-AA42-D81CE539B5B7} = {2149AB12-30BE-48F1-8534-385DCBBE5CB6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DDDF1EA-ECBC-4E70-AA1A-CE4203305E24}
+	EndGlobalSection
+EndGlobal
